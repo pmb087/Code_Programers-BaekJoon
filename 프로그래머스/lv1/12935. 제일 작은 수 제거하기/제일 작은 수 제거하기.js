@@ -1,0 +1,1 @@
+const solution = arr =>  arr.length <= 1 ? [-1] : arr.filter(el=> el !== Math.min(...arr));
