@@ -1,0 +1,1 @@
+const solution = n => Number(n.toString().split('').map(el=>el = Number(el)).sort((a,b)=>b-a).join().replace(/\,/g, ''));
