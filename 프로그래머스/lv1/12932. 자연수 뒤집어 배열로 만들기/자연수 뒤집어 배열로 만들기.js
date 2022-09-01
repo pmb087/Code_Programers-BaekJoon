@@ -1,1 +1,1 @@
-const solution = n => n.toString().split('').reverse().map(el => el = Number(el));
+const solution = n => n.toString().split('').reverse().map(el => Number(el));
