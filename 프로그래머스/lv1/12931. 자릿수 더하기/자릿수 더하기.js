@@ -1,0 +1,1 @@
+const solution = n => n.toString().split('').map(el => Number(el)).reduce((arr,crr)=> arr+= crr,0);
