@@ -1,0 +1,1 @@
+const solution = (s, n) => Math.ceil(n / s)
