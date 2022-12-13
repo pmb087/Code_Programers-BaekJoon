@@ -1,0 +1,1 @@
+const solution = n => Array(n).fill().map((_,i)=>i+1).filter(el => el % 2 !== 0);
