@@ -1,0 +1,1 @@
+const solution = s => s.map(_=>_.length)
