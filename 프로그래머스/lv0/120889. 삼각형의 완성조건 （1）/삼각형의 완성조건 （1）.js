@@ -1,0 +1,1 @@
+const solution = s => s.sort()[0] + s.sort()[1] > s.sort()[2] ? 1 : 2;
