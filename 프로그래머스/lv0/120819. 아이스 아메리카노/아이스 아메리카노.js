@@ -1,0 +1,1 @@
+const solution = m => [Math.floor(m / 5500), m % 5500]
