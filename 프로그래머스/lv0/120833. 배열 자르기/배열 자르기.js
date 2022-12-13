@@ -1,0 +1,1 @@
+const solution = (a, n1, n2) => a.slice(n1,n2+1)
