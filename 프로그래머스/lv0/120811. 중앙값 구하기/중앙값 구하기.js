@@ -1,0 +1,1 @@
+const solution = a => a.sort((a,b)=>b-a)[a.length/2-0.5]
