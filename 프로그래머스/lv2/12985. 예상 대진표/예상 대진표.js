@@ -6,8 +6,5 @@ function solution(n,a,b){
         b = Math.ceil(b / 2);
         answer++;
     }
-    if(a / 2 >= 1 && a % 2 === 0){
-        
-    }
-    return answer === 1 ? 2 : answer;
+    return answer;
 }
