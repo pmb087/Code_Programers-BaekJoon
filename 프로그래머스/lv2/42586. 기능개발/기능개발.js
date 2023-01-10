@@ -13,7 +13,6 @@ function solution(p, s) {
             count = 0;
         }
         p = p.map((el,i) => el+s[i]);
-        console.log(count,answer,p)
     }
     return answer;
 }
