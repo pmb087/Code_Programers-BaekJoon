@@ -16,11 +16,11 @@ function solution(str1, str2) {
         if(str.replace(eng, '').length == 0) arr2.push(str);
     }
     
-    if(arr1.length ==0 && arr2.length==0) return 65536;
+    if(arr1.length === 0 && arr2.length=== 0) return 65536;
     
-    arr1.sort();
-    arr2.sort();
-    if(JSON.stringify(arr1) == JSON.stringify(arr2)) return 65536;
+    // arr1.sort();
+    // arr2.sort();
+    // if(JSON.stringify(arr1) == JSON.stringify(arr2)) return 65536;
 
     const tempArr2 = JSON.parse(JSON.stringify(arr2));
     const intersection = arr1.reduce((acc,cur)=> {
