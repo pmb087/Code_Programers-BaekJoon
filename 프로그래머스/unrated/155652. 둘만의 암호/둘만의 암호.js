@@ -1,6 +1,6 @@
 function solution(s, skip, index) {
     s = s.split('').map((_,i) => s.charCodeAt(i));
-    skip = skip.split('').map((_,i) => skip.charCodeAt(i)).sort((a,b)=>a-b);
+    skip = skip.split('').map((_,i) => skip.charCodeAt(i));
     
     s = s.map(Oel => {
         let current = Oel;
