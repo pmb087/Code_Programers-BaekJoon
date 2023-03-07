@@ -1,16 +1,16 @@
 function solution(s, skip, index) {
-    s = s.split('').map((_,i) => s.charCodeAt(i));
-    skip = skip.split('').map((_,i) => skip.charCodeAt(i));
+    const sAski = s.split('').map(el => el.charCodeAt(0));
+    const skipAski = skip.split('').map(el => el.charCodeAt(0));
     
-    s = s.map(Oel => {
+    const answer = sAski.map(Oel => {
         let current = Oel;
         for(let i = 0; i < index; i++){
             current++
             if(current > 122) current = 97;
-            if(skip.includes(current)) i--;
+            if(skipAski.includes(current)) i--;
         }
         return current;
     })
     
-    return String.fromCharCode(...s)
+    return String.fromCharCode(...answer)
 }
