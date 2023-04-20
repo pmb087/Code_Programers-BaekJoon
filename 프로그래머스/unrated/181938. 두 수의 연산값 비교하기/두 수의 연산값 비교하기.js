@@ -1,0 +1,1 @@
+const solution = (a,b) => Number(a+''+b) < 2 * a * b ?  2 * a * b : Number(a+''+b)
