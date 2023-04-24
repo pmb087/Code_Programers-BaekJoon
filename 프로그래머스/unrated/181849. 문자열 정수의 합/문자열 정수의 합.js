@@ -1,0 +1,1 @@
+const solution=_=>_.split('').map(__=>Number(__)).reduce((___,____)=>___+____);
