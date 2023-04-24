@@ -1,0 +1,1 @@
+const solution=(_,__)=>{let ___=1;for(let ____=0;____<__;____++)_*=2;return _;}
