@@ -1,0 +1,1 @@
+const solution=(_,__)=>_.indexOf(__)===0?1:0;
