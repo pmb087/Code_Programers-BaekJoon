@@ -1,0 +1,1 @@
+const solution=_=>_.split('x').filter(el => el !== '').sort()
