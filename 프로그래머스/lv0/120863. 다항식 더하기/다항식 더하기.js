@@ -1,5 +1,4 @@
 function solution(polynomial) {
-    // if(polynomial.indexOf('x') === -1) return polynomial;
     const splited = polynomial.split(' + ');
     
     let xSum = 0;
@@ -14,10 +13,8 @@ function solution(polynomial) {
             xSum += Number(instance);
         } else sum += Number(curNum)        
     }
-    console.log(xSum, sum)
+    
     const answer = (xSum > 0 ? (xSum === 1 ? '' : xSum) + 'x' : '') + (sum > 0 ? (xSum > 0 ? ` + ${sum}` : sum) : '');
     
     return answer;
 }
-
-console.log(solution('1 + 1'))
